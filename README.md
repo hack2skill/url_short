@@ -1,5 +1,5 @@
 # URL Shortner by Hack2skill
-URL Shortner is an online tool that allows users to convert long urls in to short easily shareable urls. Developed upon MERN Stack.This is one of the many open source projects undertaken by Hack2skill in collaboration with developers. Our aim is to generate more such contributions to open source respositories, in the collaboration with other open source developers. Don't forget to check out our other open source projects, right [`here!`](https://github.com/hack2skill/)
+URL Shortner is an online tool that allows users to convert long urls in to short easily shareable urls. Developed upon MERN Stack.This is one of the many open source projects undertaken by Hack2skill. Our aim is to generate more such open source respositories, in the collaboration with other open source developers. Don't forget to check out our other open source projects, right [`here!`](https://github.com/hack2skill/)
 
 ## Installation
 To Contribute to this repository follow these commands in your Terminal:
