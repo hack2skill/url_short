@@ -5,7 +5,7 @@ URL Shortner is an online tool that allows users to convert long urls in to shor
 To Contribute to this repository follow these commands in your Terminal:
 
 1. Clone the Repository
-- ` git clone https://github.com/hack2skill/qrcodeGenerator.git`
+- ` git clone https://github.com/hack2skill/url_short`
 
 2. After cloning the repository install all dependencies
 - `cd url_short`
