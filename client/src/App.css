@@ -23,6 +23,91 @@ body{
   padding: 3px;
 }
 
+@media only screen and (max-width: 1400px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .formContainer{
+    /* height: 200px; */
+    width: 40%;
+  }
+  .inputField{
+    width: 80%;
+  }
+  
+}
+@media only screen and (max-width: 1300px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .formContainer{
+    /* height: 200px; */
+    width: 45%;
+  }
+  .inputField{
+    width: 80%;
+  }
+  
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .formContainer{
+    /* height: 200px; */
+    width: 50%;
+  }
+  .inputField{
+    width: 80%;
+  }
+  
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .formContainer{
+    /* height: 200px; */
+    width: 70%;
+  }
+  .inputField{
+    width: 80%;
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .formContainer{
+    /* height: 200px; */
+    width: 90%;
+  }
+  .inputField{
+    width: 80%;
+  }
+  *{
+    margin: 10px;
+  }
+  
+}
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .formContainer{
+    /* height: 200px; */
+    width: 100%;
+  }
+  .inputField{
+    width: 60%;
+  }
+  *{
+    margin: 2px;
+  }
+  
+}
+
 .formContainer{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
