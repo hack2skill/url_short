@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="url" placeholder="Enter URL">
+        <input type="submit" value="Shorten">
+    </form>
+    {% if slug %}
+        <a href="{{slug}}">Click to open the url</a>
+        <input type="text" value="{{slug}}" id="myInput">
+        <button onclick="myfunction()">Copy URL</button>
+    {% endif %}
+    {% if error %}
+        <p>{{ error }}</p>
+    {% endif %}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6427545476327908"
+     crossorigin="anonymous"></script>
+<!-- side -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6427545476327908"
+     data-ad-slot="5848592089"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    <script>
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        alert("Copied the URL")
+    </script>
+    {% endblock %}
